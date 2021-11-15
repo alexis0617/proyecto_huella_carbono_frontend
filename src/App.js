@@ -2,12 +2,13 @@ import React from 'react'
 import NavigationMenu from './components/NavigationMenu'
 
 import "bootstrap/dist/css/bootstrap.min.css"
+import MainPage from './components/MainPage'
 
 function App() {
   return (
     <div>
-      <NavigationMenu logo="../logo.svg"/>
-      <h1>Hello world</h1>
+      <NavigationMenu/>
+      <MainPage/>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import {Navbar,Container,Nav} from "react-bootstrap"
+import logoUniversidad from "../images/logoUniversidad.png";
 
 
 function NavigationMenu(props) {
@@ -10,14 +11,13 @@ function NavigationMenu(props) {
             <Navbar.Brand href="#home">
             <img
             alt=""
-            src={props.logo}
-            width="30"
-            height="30"
+            src={logoUniversidad}
+            width="70"
+            height="80"
             className="d-inline-block align-top"
             />{' '}
-            React Bootstrap
             </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle  aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                     <Nav.Link href="#home">Inicio</Nav.Link>
