@@ -30,7 +30,7 @@ public class Dependencia implements Serializable {
     @OneToOne(mappedBy = "dependencia")
     private Usuario usuario;
 
-    //CONSTRUCTOR
+    //CONSTRUCTOR    public Dependencia(int codigo, String nombre, String descripcion) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.descripcion = descripcion;
