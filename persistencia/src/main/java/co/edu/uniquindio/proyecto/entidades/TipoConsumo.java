@@ -1,0 +1,6 @@
+package co.edu.uniquindio.proyecto.entidades;
+
+public enum TipoConsumo {
+    GASES_REFRIGERANTES, GASOLINA, ENERGIA_ELECTRICA, GAS,
+    NITROGENO, HIDROGENO, OXIDO_NITROSO, AIRE_SINTETICO, HELIO_GRADO_6, PAPEL_CARTA, PAPEL_OFICIO
+}
