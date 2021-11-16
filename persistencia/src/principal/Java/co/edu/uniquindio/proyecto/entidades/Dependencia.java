@@ -31,7 +31,6 @@ public class Dependencia implements Serializable {
     private Usuario usuario;
 
     //CONSTRUCTOR
-    public Dependencia(int codigo, String nombre, String descripcion) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.descripcion = descripcion;
